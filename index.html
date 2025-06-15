@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Pribadi</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 1em 0;
+      text-align: center;
+    }
+    nav {
+      background-color: #005fa3;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav li {
+      margin: 0 15px;
+    }
+    nav a {
+      display: block;
+      padding: 1em;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .tugaskel:hover {
+      background-color: black;
+    }
+    .wa:hover {
+      background-color: black;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 2em auto;
+      padding: 0 1em;
+    }
+    .profil {
+      margin-left: 60px;
+      margin-top: -5px;
+    }
+    section {
+      margin-bottom: 2em;
+      padding: 1.5em;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    img.foto {
+      border-radius: 20px;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border: 3px solid black;
+    }
+    img.foto:hover {
+      filter: brightness(80%);
+    }
+    .profil-container {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .profil-container .info {
+      flex: 1;
+      min-width: 250px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 3em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Blog Pribadi Saya</h1>
+    <p>Selamat datang di website saya!</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li class="tugaskel"><a href="tugaskel.html">Team Proyek Akhir DPW</a></li>
+      <li class="wa"><a href="https://wa.me/628974879695">Kontak (WA)</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <section>
+      <h2 class="profil">Profil</h2>
+      <div class="profil-container">
+        <img src="/blog/img/WhatsApp Image 2025-06-15 at 19.23.25_da42ba80.jpg" alt="foto" class="foto" />
+        <div class="info">
+          <p>Nama: Rendi Yulistio Firmansyah</p>
+          <p>Tempat: Tanggal Lahir: Surabaya, 04 Juli 2005</p>
+          <p>Universitas: Universitas Trunojoyo Madura</p>
+          <p>Fakultas: Fakultas Teknik</p>
+          <p>Prodi: Teknik Informatika</p>
+          <p>Deskripsi Singkat: Saya adalah mahasiswa Teknik Informatika yang sedang belajar Dasar Pemrograman Web.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Blog Pribadi Ren. All rights reserved.</p>
+  </footer>
+</body>
+</html>
